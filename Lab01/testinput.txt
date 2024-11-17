@@ -1,0 +1,11 @@
+main
+//ovo je komentar
+int x;
+float y;
+bool flag;
+x := 0x1A + 7 - 0;
+y := 0.5E-3;
+flag := true;
+for i in [x, y] apply
+    y := y + i;
+exit
